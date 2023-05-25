@@ -1,0 +1,100 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    padding: 5px;
+}
+
+span{
+    font-weight: 600;
+}
+
+.avt{
+    width: 3cm;
+}
+
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 1.4rem;
+}
+.info-name{
+    color: #0E2452;
+}
+
+.info-position{
+    font-size: .9rem;
+    color: #333;
+}
+
+.info-info{
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #ccc;
+    padding-right: 4rem;
+}
+
+.info-avt{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-right: 10px;
+    border-radius: 2px;
+}
+
+.info-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+section{
+    margin-top: 10px;
+    line-height: 1.2rem;
+    
+}
+.section-title{
+    border-bottom: 1px solid black;
+}
+
+.education-university{
+    color: #333;
+}
+
+.skills-list{
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.experience-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience-des{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    margin-top: 10px;
+    border: 1px solid #000;
+}
+
+.experience-des>p{
+    border: 1px solid #ccc;
+    padding: 2px;
+    padding-left: 5px;
+}
+
+.projects-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul.li{
+    list-style-type: circle;
+
+}
